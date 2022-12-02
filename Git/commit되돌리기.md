@@ -1,5 +1,8 @@
 # Git을 되돌리고자 할 때 사용하는 방법
 
+### 과거의 Commit울 확인하는 방법
+git log [-p -2:변경된것만 최근 2개를 보여줌/--start:얼마나 변경됐는지 보여줌/--oneline :간단하게 보여줌(매우 유용)]
+=> VSC에서는 그냥 Git graph 깔아서 확인하자!
 ### 가장 최신 Commit을 확인하는 방법
 git commit --amend 
 git commit --amend -m '[Commit 이름]' : commit message 변경
